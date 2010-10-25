@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ffi (0.6.3)
+      rake (>= 0.8.7)
+    ffi-rzmq (0.6.0)
+    json (1.4.6)
+    rack (1.2.1)
+    rack-mongrel2 (0.2.0)
+      ffi (~> 0.6.3)
+      ffi-rzmq (~> 0.6.0)
+    rake (0.8.7)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    tilt (1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  rack-mongrel2
+  sinatra
